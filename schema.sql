@@ -13,4 +13,4 @@ CREATE TABLE animals (
 
 /* Update animals table */
 
-ALTER TABLE animals ADD species VARCHAR(50);
+ALTER TABLE animals ADD species VARCHAR(51);
