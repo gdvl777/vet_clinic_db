@@ -150,8 +150,11 @@ After running the queries, you can take screenshots of the results to showcase y
 
 -   GitHub: [@githubhandle](https://github.com/gdvl777)
 -   X: [X](https://www.x.com/gdvl777_)
+- Angellist / Wellfound: [Daniel Villalba Lynch](https://wellfound.com/u/daniel-villalba-2)
+
 
 👤 **Arthur Iturres**
+
 - GitHub: [@Arthur Iturres](https://github.com/ITurres)
 - LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
 - Angellist / Wellfound: [Arturo (Arthur) Emanuel Guerra Iturres](https://wellfound.com/u/arturo-arthur-emanuel-guerra-iturres)
