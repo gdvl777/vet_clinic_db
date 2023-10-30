@@ -106,7 +106,7 @@ To get a local copy up and running, follow these steps.
 1. Clone this repository to your local machine:
 
 ```
-git clone https://github.com/ClaudiaRojasSoto/DB_Vet_Clinic.git
+git clone https://github.com/gdvl777/Vet_Clinic_db.git
 
 ```
 
@@ -146,10 +146,16 @@ After running the queries, you can take screenshots of the results to showcase y
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Claudia Rojas**
+👤 **Daniel Villalba L**
 
--   GitHub: [@githubhandle](https://github.com/ClaudiaRojasSoto)
--   LinkedIn: [LinkedIn](https://www.linkedin.com/in/claudia-rojas-soto/)
+-   GitHub: [@githubhandle](https://github.com/gdvl777)
+-   X: [X](https://www.x.com/gdvl777_)
+
+👤 **Arthur Iturres**
+- GitHub: [@Arthur Iturres](https://github.com/ITurres)
+- LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
+- Angellist / Wellfound: [Arturo (Arthur) Emanuel Guerra Iturres](https://wellfound.com/u/arturo-arthur-emanuel-guerra-iturres)
+- Youtube: [Arturo Emanuel Guerra Iturres - Youtube Channel](https://www.youtube.com/channel/UC6GFUFHOtBS9mOuI8EJ6q4g)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +175,7 @@ After running the queries, you can take screenshots of the results to showcase y
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/DB_Vet_Clinic/issues).
+Feel free to check the [issues page](https://github.com/gdvl777/Vet_Clinic_db/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
