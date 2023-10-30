@@ -84,3 +84,9 @@ SELECT animal_id, vet_id, visit_timestamp
 FROM (SELECT id AS animal_id FROM animals) animal_ids
 CROSS JOIN (SELECT id AS vet_id FROM vets) vets_ids
 CROSS JOIN generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+CREATE INDEX ix_visit_animal ON visits (animal_id);
+
+CREATE INDEX ix_visits ON visits (vet_id);
+
+CREATE INDEX ix_owner_email ON owners (email);
