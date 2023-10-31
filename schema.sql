@@ -66,3 +66,27 @@ CREATE TABLE visits (
 ALTER TABLE visits DROP CONSTRAINT visits_pkey;
 
 ALTER TABLE visits ADD PRIMARY KEY (animal_id, vet_id, visit_date);
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+ALTER TABLE visits RENAME COLUMN visit_date TO date_of_visit;
+
+ALTER TABLE visits ADD COLUMN id SERIAL;
+
+TRUNCATE visits;
+ALTER SEQUENCE visits_id_seq RESTART WITH 1;
+INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT animal_id, vet_id, date_of_visit FROM temp_visits;
+DROP TABLE temp_visits;
+ALTER TABLE visits DROP CONSTRAINT visits_pkey;
+ALTER TABLE visits ADD PRIMARY KEY (id);
+INSERT INTO visits (animal_id, vet_id, date_of_visit)
+SELECT animal_id, vet_id, visit_timestamp
+FROM (SELECT id AS animal_id FROM animals) animal_ids
+CROSS JOIN (SELECT id AS vet_id FROM vets) vets_ids
+CROSS JOIN generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+CREATE INDEX ix_visit_animal ON visits (animal_id);
+
+CREATE INDEX ix_visits ON visits (vet_id);
+
+CREATE INDEX ix_owner_email ON owners (email);
